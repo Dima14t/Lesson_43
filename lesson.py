@@ -29,7 +29,7 @@ class Worker: # Работник
 
 class Programmer(Worker): # Программист
     def __init__(self, name, salary, identifier, password, language, project, id_project):
-        super().__init__(name, salary, identifier, password) # Вызов конструктора родительского класса (Работник)
+        super().__init__(name, salary, identifier, password) # Вызов конструктора родительского класса (Работник)gg
 
         self.language = language
         self._project = project
